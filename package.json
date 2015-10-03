@@ -1,0 +1,27 @@
+{
+  "name": "robo-api",
+  "version": "1.0.0",
+  "description": "Api to move a robot around a grid",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fChristenson/robo.git"
+  },
+  "author": "Fredrik Christenson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fChristenson/robo/issues"
+  },
+  "homepage": "https://github.com/fChristenson/robo#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}
